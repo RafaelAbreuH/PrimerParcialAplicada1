@@ -30,8 +30,8 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.registrosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.consultasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.registrarGrupoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.consultasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.consultarGruposToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -55,6 +55,13 @@
             this.registrosToolStripMenuItem.Size = new System.Drawing.Size(67, 20);
             this.registrosToolStripMenuItem.Text = "Registros";
             // 
+            // registrarGrupoToolStripMenuItem
+            // 
+            this.registrarGrupoToolStripMenuItem.Name = "registrarGrupoToolStripMenuItem";
+            this.registrarGrupoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.registrarGrupoToolStripMenuItem.Text = "Registrar Grupo";
+            this.registrarGrupoToolStripMenuItem.Click += new System.EventHandler(this.registrarGrupoToolStripMenuItem_Click);
+            // 
             // consultasToolStripMenuItem
             // 
             this.consultasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -63,17 +70,12 @@
             this.consultasToolStripMenuItem.Size = new System.Drawing.Size(71, 20);
             this.consultasToolStripMenuItem.Text = "Consultas";
             // 
-            // registrarGrupoToolStripMenuItem
-            // 
-            this.registrarGrupoToolStripMenuItem.Name = "registrarGrupoToolStripMenuItem";
-            this.registrarGrupoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.registrarGrupoToolStripMenuItem.Text = "Registrar Grupo";
-            // 
             // consultarGruposToolStripMenuItem
             // 
             this.consultarGruposToolStripMenuItem.Name = "consultarGruposToolStripMenuItem";
             this.consultarGruposToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.consultarGruposToolStripMenuItem.Text = "Consultar Grupos";
+            this.consultarGruposToolStripMenuItem.Click += new System.EventHandler(this.consultarGruposToolStripMenuItem_Click);
             // 
             // MainForm
             // 
