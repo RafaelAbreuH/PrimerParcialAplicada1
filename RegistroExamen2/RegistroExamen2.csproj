@@ -91,7 +91,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
-    <Folder Include="UI\" />
+    <Folder Include="UI\Consultar\" />
+    <Folder Include="UI\Registro\" />
+    <Folder Include="UI\Reportes\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="DAL\Scripts\SQLQuery3.sql" />
